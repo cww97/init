@@ -1,7 +1,8 @@
 # zsh installation
 sudo apt-get install zsh
 
-sudo apt-get install gvim
+sudo apt update
+sudo apt install vim-gtk
 
 cd
 rsync -av ./config/ ~/
