@@ -4,9 +4,9 @@ sudo apt-get install zsh
 sudo apt update
 sudo apt install vim-gtk
 
-cd
 rsync -av ./config/ ~/
 
+cd
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mkdir -p ~/.vim/colors
 cp ~/molokai.vim ~/.vim/colors/
