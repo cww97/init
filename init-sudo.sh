@@ -20,9 +20,9 @@ cp .tmux/.tmux.conf.local .
 sudo apt install build-essential cmake python3-dev
 # youcompleteme compilation
 cd ~/.vim/bundle/YouCompleteMe
-pyth
-cd ..on3 install.py --clang-completer
+
+python3 install.py --clang-completer
 
 
-# always at end
+# always at end intall oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
